@@ -18,6 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/admin/reg', 'registrationController@index');
+Route::post('/admin/reg', 'registrationController@validation');
 Route::get('/admin/login', 'loginController@index');
 
 Route::post('/admin/login', 'loginController@validation');

@@ -35,7 +35,7 @@
 
 					<input type="checkbox" name="remember" value=""> Remember me <br/>
 					<input type="submit" name="submit" value="Submit">
-					<a href="admin/reg">Sign Up</a>
+					<a href="/admin/reg">Sign Up</a>
 						
 					</table>
 			</fieldset>
